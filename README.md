@@ -61,9 +61,7 @@ A beautiful and modern calculator application built using JavaFX 21 and Java 24.
 ## 🖼️ Final Output
 
 <p align="center">
-  <img src="assets/final-output.png" alt="Calculator Final Output" width="400"/>
-  ![image](https://github.com/user-attachments/assets/3d516877-7ad3-4782-a353-ec48ba3ad784)
-
+  <img src="assets/output-pic.png" alt="Calculator Final Output" width="400"/>
 </p>
 
 ## 🧱 Project Structure
