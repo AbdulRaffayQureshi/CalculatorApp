@@ -16,9 +16,7 @@ A beautiful and modern calculator application built using JavaFX 21 and Java 24.
 <<<<<<< HEAD
   <img src="assets/calc-icon.png" alt="Calculator UI" width="400"/>
 =======
-  <img src="src/calc-icon.png" alt="Calculator Icon" width="200"/>
->>>>>>> f162d05 (Update README: add calc-icon and output-pic screenshots)
-</p>
+  
 
 ## ✨ Features
 
