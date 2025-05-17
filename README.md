@@ -1,67 +1,96 @@
-# JavaFX Basic Calculator
+# 🧮 JavaFX Calculator App
 
-A simple yet beautiful calculator application built with JavaFX 21 and Java 24. This project demonstrates the use of JavaFX for creating modern desktop applications with a clean user interface.
+<div align="center">
 
-![Calculator Icon](./assets/icon.png)
+![Calculator Badge](https://img.shields.io/badge/JavaFX-Calculator-blueviolet?style=for-the-badge&logo=java&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Java Version](https://img.shields.io/badge/Java-24%2B-orange)](https://www.oracle.com/java/)
 
-## Features
+</div>
 
-- Basic arithmetic operations: addition, subtraction, multiplication, division
-- Responsive and intuitive UI
-- Custom application icon
-- Built with JavaFX 21
-- Runs on Java 24
+## 📖 About The Project
 
-## Requirements
+A beautiful and modern calculator application built using JavaFX 21 and Java 24. This project demonstrates a clean UI, basic arithmetic operations, and custom icon support.
 
-- **Java 24** (JDK 24 or later)
-- **JavaFX 21** libraries ([Download JavaFX](https://gluonhq.com/products/javafx/))
+<p align="center">
+  <img src="assets/screenshot.png" alt="Calculator UI" width="400"/>
+</p>
+
+## ✨ Features
+
+- **Basic Operations** – Addition, subtraction, multiplication, division
+- **Responsive UI** – Clean, modern, and intuitive interface
+- **Custom Icon** – Application icon included
+- **JavaFX 21** – Built with the latest JavaFX
+- **Java 24** – Compatible with Java 24 and above
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Java Development Kit (JDK) 24 or higher
+- JavaFX 21 SDK ([Download JavaFX](https://gluonhq.com/products/javafx/))
 - (Optional) JavaFX Scene Builder for UI prototyping
 
-## Setup
+### Installation
 
-1. **Clone the repository:**
+1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/yourusername/CalculatorApp.git
+   git clone https://github.com/AbdulRaffayQureshi/CalculatorApp.git
    cd CalculatorApp
    ```
 
-2. **Download JavaFX 21:**
+2. **Download JavaFX 21**
 
-   - Visit [https://gluonhq.com/products/javafx/](https://gluonhq.com/products/javafx/) and download the JavaFX SDK for your platform.
-   - Extract the SDK and note the path to the `lib` directory.
+   - Download from [GluonHQ JavaFX](https://gluonhq.com/products/javafx/)
+   - Extract and note the path to the `lib` directory
 
-3. **Compile and Run:**
+3. **Compile and Run**
 
    ```sh
    javac --module-path /path/to/javafx-sdk-21/lib --add-modules javafx.controls,javafx.fxml -d out src/*.java
    java --module-path /path/to/javafx-sdk-21/lib --add-modules javafx.controls,javafx.fxml -cp out Main
    ```
 
-   Replace `/path/to/javafx-sdk-21/lib` with the actual path to your JavaFX SDK `lib` folder.
+   Replace `/path/to/javafx-sdk-21/lib` with your actual JavaFX SDK path.
 
-4. **Icon:**
-   - The application uses a custom icon located at `assets/icon.png`. Make sure this file exists or replace it with your preferred icon.
+4. **Icon**
+   - The app uses a custom icon at `assets/icon.png`. Replace it with your own if desired.
 
-## Screenshots
-
-<p align="center">
-  <img src="assets/screenshot.png" alt="Calculator UI" width="400"/>
-</p>
-
-## Beautiful UI
-
-The calculator features a modern, minimalistic design with clear buttons and a responsive layout. The color scheme and button styles are chosen for clarity and ease of use.
+## 🖼️ Final Output
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/yourusername/yourrepo/main/assets/final-output.png" alt="Colorful Simple Calculator Output" width="400"/>
+  <img src="assets/final-output.png" alt="Calculator Final Output" width="400"/>
 </p>
 
-## License
+## 🧱 Project Structure
 
-This project is licensed under the MIT License.
+```
+CalculatorApp/
+├── src/                # Java source files
+├── assets/             # Icons and screenshots
+│   ├── icon.png
+│   ├── screenshot.png
+│   └── final-output.png
+├── out/                # Compiled classes
+├── README.md
+└── ...
+```
+
+## 🛠️ Technical Details
+
+- **UI**: JavaFX 21 (no Scene Builder used)
+- **Java Version**: 24
+- **Icon**: PNG format, set via JavaFX API
+- **No external dependencies** beyond JavaFX
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-> **Note:** JavaFX Scene Builder was downloaded for this project but not used in the final implementation.
+<div align="center">
+  Created with ❤️ by [Abdul Raffay Qureshi](https://github.com/AbdulRaffayQureshi)
+</div>
